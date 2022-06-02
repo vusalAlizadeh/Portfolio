@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+.sidebar {
+  background-image: linear-gradient(to right bottom, #232526, #414345);
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.685);
+  text-align: center;
+  color: #fff;
+}
+.side_bar-avatar {
+  width: 6.875rem;
+  height: 6.875rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.side_bar-icon {
+  width: 1.563rem;
+  height: 1.563rem;
+  transition: all 1s ease;
+}
+.side_bar-name {
+  font-family: "Cinzel", serif;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+.side_bar-name span {
+  color: #00f260;
+}
+.side_bar-item {
+  height: 2.5rem;
+  padding: 5px 0;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+  color: #fff;
+}
+.side_bar-item .fa-envelope,
+.fa-phone {
+  color: #00f260;
+  font-size: 1.438rem;
+  margin-right: 5px;
+}
+.side_bar-title {
+  border-radius: 1.875;
+
+  margin-bottom: 10px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.side_bar-contact {
+  background-color: rgba(0, 0, 0, 0.057);
+  padding: 5px 0;
+  font-size: 0.875rem;
+}
+.side_bar-email {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  border-radius: 1.875rem;
+  color: #fff;
+  transition: all 2s linear;
+  cursor: pointer;
+}
+.side_bar-email:hover {
+  background-image: linear-gradient(to left top, #00f260, #0575e6);
+}
+
+.side_bar-resume {
+  border-radius: 1.875rem;
+}
+.side_bar-resume:hover {
+  border: 1px solid #fff;
+}
+.side_bar-github {
+  margin-top: 6px;
+  border-radius: 1.875rem;
+}
+.side_bar-github .icon-github {
+  margin-right: 5px;
+}
+.side_bar-github:hover {
+  border: 1px solid #fff;
+}
+.side_bar-social-icons .icon-instagram:hover,
+.icon-facebook:hover,
+.icon-github:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sidebar {
+    padding: 25px 5px;
+  }
+}

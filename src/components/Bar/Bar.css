@@ -1,0 +1,27 @@
+.bar {
+  width: 90%;
+  background-color: #dfe6e9;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.fab {
+  width: 15px;
+  height: 15px;
+  color: rgba(237, 43, 146, 0.874);
+  font-size: 1.2rem;
+}
+.bar-name {
+  margin-left: 10px;
+}
+.bar-wrapper {
+  background-image: linear-gradient(90deg, #00f260, #0575e6);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  .bar {
+    font-size: 0.6rem;
+  }
+}

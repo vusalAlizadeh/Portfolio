@@ -1,0 +1,57 @@
+.resume {
+  margin-top: 3rem;
+  color: rgb(247, 202, 202);
+  height: 77vh;
+  overflow-y: auto;
+}
+
+.resume-card-heading {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.733);
+  color: rgb(247, 202, 202);
+}
+.resume-card-body-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.712);
+  color: rgb(247, 202, 202);
+}
+.resume-card-body-sub-title {
+  font-size: 1rem;
+}
+.resume-card-name {
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.712);
+  color: rgb(247, 202, 202);
+}
+.resume-card-body-details {
+  color: rgba(0, 0, 0, 0.712);
+  color: rgb(247, 202, 202);
+}
+.resume-languages-heading {
+  margin-bottom: 1.875rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.712);
+  color: rgb(247, 202, 202);
+}
+
+@media (max-width: 365px) {
+  .resume-card-heading {
+    font-size: 1.2rem;
+  }
+  .resume-card-body-title {
+    font-size: 1rem;
+  }
+  .resume-card-name {
+    font-size: 0.8rem;
+  }
+  .resume-card-body-details {
+    font-size: 0.7rem;
+  }
+  .resume-languages-heading {
+    font-size: 1rem;
+  }
+}
